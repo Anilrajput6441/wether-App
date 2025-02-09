@@ -47,10 +47,8 @@ const wetherFetch = async()=> {
     humidity.innerHTML = `<p>${data.current.humidity}%</p> <p>humidity</p>`;
     windSpeed.innerHTML = `<p>${data.current.wind_kph} km/h</p> <p>windspeed</p>`;
     // hIcon.src = `humidity.png`;
-    const img1 = document.createElement('img');
-    img1.src = `${weatherConditions[data.current.condition.text]}`;
-    img1.classList.add('weatherIcon');
-    wImg.appendChild(img1);
+    wImg.innerHTML = `<img class = "weatherIcon" src=${weatherConditions[data.current.condition.text]}></img>`; 
+    
    
 
     
