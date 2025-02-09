@@ -37,7 +37,7 @@ const weatherConditions = {
   
 const wetherFetch = async()=> {
    
-    const result = await fetch(`http://api.weatherapi.com/v1/current.json?key=ea4c89270e8c47d1a3a140246250802&q=` + input.value);
+    const result = await fetch(`https://api.weatherapi.com/v1/current.json?key=ea4c89270e8c47d1a3a140246250802&q=` + input.value);
     const data = await result.json();
     console.log(data);
     // dateInfo.innerHTML = `<p>${data.location.localtime}</p>`;
