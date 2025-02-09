@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+  
+    border: 1px solid rgb(236, 222, 222);
+    width: 25vw;
+    height: 65vh;
+    background: rgba(255, 255, 255, 0.1); /* More transparency */
+    backdrop-filter: blur(15px) saturate(150%);
+    -webkit-backdrop-filter: blur(15px) saturate(150%);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                inset 0 1px 1px rgba(255, 255, 255, 0.3); /* Inner glow effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 7vh;
+    border-bottom: 1px solid azure;
+    margin-bottom: 10px;
+    
+}
+.input{
+    height: 4vh;
+    border: 1px solid rgb(236, 222, 222);
+    border-radius: 10px;
+    width: 23vw;
+    color: antiquewhite;
+    font-size: 18px;
+    margin: 10px 12px;
+    text-align:right;
+    padding: 0 10px;
+    background: rgba(255, 255, 255, 0.1); /* More transparency */
+    backdrop-filter: blur(15px) saturate(150%);
+    -webkit-backdrop-filter: blur(15px) saturate(150%);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+                inset 0 1px 1px rgba(255, 255, 255, 0.3); /* Inner glow effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */
+    
+} 
+.input-box img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+
+}
+.dateInfo,.temp,.condition,.windspeed,.humidity{
+    color: aliceblue;
+    display: flex;
+    margin-top: 3px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20%;
+    
+   
+}
+.humidity,.windspeed{
+    display: flex;
+    flex-direction: column;
+}
+.humidity{
+    border-right: 1px solid azure;
+    margin-top: 2px;
+    padding-right: 45px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    
+   /* gap: 30px; */
+    
+}
+.wImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.weatherIcon{
+    width: 70%;
+    height: 70%;
+}
